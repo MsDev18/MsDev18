@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">MsDev18 — Frontend craft. Backend depth.</title>
+  <desc id="desc">Full-stack developer profile banner with an interface, Go services, and SQL and Redis data architecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D31"/>
+      <stop offset="0.55" stop-color="#0C1424"/>
+      <stop offset="1" stop-color="#13243A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="72" y1="220" x2="620" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76E6DA"/>
+      <stop offset="1" stop-color="#83B7FF"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76E6DA" stop-opacity="0"/>
+      <stop offset="0.32" stop-color="#76E6DA"/>
+      <stop offset="0.7" stop-color="#83B7FF"/>
+      <stop offset="1" stop-color="#83B7FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1160 55) rotate(142) scale(660 450)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#386EB0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#386EB0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#91B4E8" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1280" height="400" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+    <rect width="1280" height="400" fill="url(#glow)"/>
+    <rect width="1280" height="400" fill="url(#grid)"/>
+    <path d="M682 400L880 0M738 400L936 0" stroke="#83B7FF" stroke-opacity="0.045"/>
+    <path d="M0 399H1280" stroke="url(#edge)" stroke-width="2"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+      <rect x="72" y="62" width="7" height="7" rx="2" fill="#76E6DA"/>
+      <text x="92" y="72" fill="#BDCBDF" font-size="13" font-weight="600" letter-spacing="2">MSDEV18 / FULL-STACK DEVELOPER</text>
+      <text x="68" y="166" fill="#F1F5FC" font-size="65" font-weight="750" letter-spacing="-2.7">Frontend craft.</text>
+      <text x="68" y="241" fill="url(#accent)" font-size="65" font-weight="750" letter-spacing="-2.7">Backend depth.</text>
+      <text x="72" y="291" fill="#A4B5CE" font-size="20" letter-spacing="0.2">React · Next.js · Go</text>
+      <path d="M72 330H120" stroke="#76E6DA" stroke-width="2"/>
+      <text x="136" y="335" fill="#8195B2" font-size="11" font-weight="500" letter-spacing="1.5">FROM INTERFACE TO INFRASTRUCTURE</text>
+
+      <rect x="760" y="58" width="448" height="284" rx="18" fill="#0D1728" fill-opacity="0.9" stroke="#293B53"/>
+      <path d="M760 102H1208" stroke="#24334A"/>
+      <circle cx="783" cy="80" r="3" fill="#53637C"/>
+      <circle cx="795" cy="80" r="3" fill="#53637C"/>
+      <circle cx="807" cy="80" r="3" fill="#53637C"/>
+      <text x="828" y="84" fill="#90A5C2" font-size="10" font-weight="600" letter-spacing="1.8">SYSTEM OVERVIEW</text>
+      <rect x="1113" y="70" width="72" height="21" rx="6" fill="#17263C" stroke="#2C4260"/>
+      <text x="1149" y="84" fill="#9EC8FF" text-anchor="middle" font-size="10" font-weight="500">Docker</text>
+
+      <rect x="792" y="122" width="384" height="66" rx="10" fill="#15273B" stroke="#36586C"/>
+      <rect x="806" y="136" width="38" height="38" rx="9" fill="#76E6DA" fill-opacity="0.09"/>
+      <path d="M820 148L813 155L820 162M830 148L837 155L830 162M827 146L823 164" stroke="#76E6DA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="858" y="146" fill="#86A2BD" font-size="9" font-weight="600" letter-spacing="1.6">INTERFACE</text>
+      <text x="858" y="169" fill="#E3ECF8" font-size="17" font-weight="600">React + Next.js</text>
+      <circle cx="1156" cy="155" r="4" fill="#76E6DA"/>
+
+      <path d="M984 188V204M888 220V204H1080V220" stroke="#4A6587" stroke-width="1.5"/>
+      <circle cx="984" cy="204" r="3" fill="#83B7FF"/>
+
+      <rect x="792" y="220" width="184" height="72" rx="10" fill="#152238" stroke="#304766"/>
+      <text x="808" y="244" fill="#86A2BD" font-size="9" font-weight="600" letter-spacing="1.6">SERVICES</text>
+      <text x="808" y="273" fill="#A5D3FF" font-size="18" font-weight="600">Go + gRPC</text>
+      <rect x="992" y="220" width="184" height="72" rx="10" fill="#1B2138" stroke="#3D4161"/>
+      <text x="1008" y="244" fill="#9B9FBC" font-size="9" font-weight="600" letter-spacing="1.6">DATA</text>
+      <text x="1008" y="273" fill="#C4BAFF" font-size="18" font-weight="600">SQL + Redis</text>
+
+      <text x="792" y="321" fill="#6F85A5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10">&lt;interface /&gt;</text>
+      <text x="1176" y="321" text-anchor="end" fill="#6F85A5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10">{ services }</text>
+    </g>
+  </g>
+</svg>
